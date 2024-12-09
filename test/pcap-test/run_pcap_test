@@ -164,7 +164,7 @@ def main():
             print(f"Case {i+1} 正确！")
             num_case_correct += 1
 
-    print(f"fct-test：通过 {num_case_correct} 个 case，一共 {num_case} 个 case ")
+    print(f"pcap-test：通过 {num_case_correct} 个 case，一共 {num_case} 个 case ")
 
 if __name__ == "__main__":
     main()

@@ -75,7 +75,7 @@ def main():
         flow_size_1 = flow["flow_size_1"]
 
         # 拼接命令
-        command = f'./ns3 run \"dumbbell-fct --flowSize0={flow_size_0} --flowSize1={flow_size_1}\"'
+        command = f'./ns3 run \"dumbbell --flowSize0={flow_size_0} --flowSize1={flow_size_1}\"'
         print(f"Running command: {command}")
 
         # 执行命令
